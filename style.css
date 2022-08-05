@@ -1,0 +1,57 @@
+html, body
+{
+	margin: 0;
+	background-color: #3F4E4F;
+	height: 100px;
+}
+.topnav
+{
+	background-color: #051424;
+	overflow: hidden;
+}
+.topnav a
+{
+	float: right;
+	color: #f2f2f2;
+	text-align: left;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+.topnav a:hover
+{
+	background-color: #ddd;
+	color: black;
+}
+.topnav a.active 
+{
+	background-color: #00FFAB;
+	color: whitesmoke;
+}
+#heading
+{
+	text-transform: capitalize;
+	color: #ff8000;
+	text-shadow: 2px 2px black;
+	font-weight: normal;
+	text-align: center;
+}
+.container
+{
+	width: 100%;
+}
+#buy
+{
+	width: 560px;
+	margin: 10px 10px;
+	height: 28px ;
+	background-color: darkblue;
+	color: white;
+	font-weight: 600;
+	font-size: 19;
+	border-radius: 15px;
+}
+.grid-container {
+  display: inline-grid;
+  padding: 2px;
+}
